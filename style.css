@@ -1,0 +1,533 @@
+:root{
+	--fruitColor: #C12C2C;
+}
+
+body.homepage{
+	background-image: url("FruitPics/MIXEDFRUIT3pexels-irina-iriser.jpg");
+}
+
+body.bananas{
+	background-image: url("FruitPics/BANANApexels-julia-volk.jpg");
+}
+
+body.blueberries{
+	background-image: url("FruitPics/BLUEBERRYpexels-sophie-dale_DARKENED.jpg");
+}
+
+body.cherries{
+	background-image: url("FruitPics/CHERRYpexels-irina-iriser.jpg");
+}
+
+body.grapes{
+	background-image: url("FruitPics/GRAPESpexels-maria-orlova.jpg");
+}
+
+body.strawberries{
+	background-image: url("FruitPics/STRAWBERRYpexels-kunno-jayson.jpg");
+}
+
+
+body{
+	font-family: Helvitica;
+	
+	padding:0;
+	margin:0;
+	/* background-color: #222222; */
+	background-color: #353832;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	overflow-x: hidden; /* !! change in tablet & mobile*/
+}
+
+.allContentOrder{
+	display: inline-flex;
+	justify-content: space-between;
+	width: -webkit-fill-available;
+}
+
+#Heading_desktop{
+	font-family: helvetica;
+	background-color: rgba(255, 255, 255, 0.25);
+	color:white;
+	width: 130px;
+	height: 100vh;
+	display: grid;
+	align-content: space-around;
+}
+
+#Heading_tablet, #Footer_tablet{
+	display: none;
+}
+
+#Main_desktop{
+	/*background-color: #ffffff;*/
+	width: 70%;
+	height: 100vh;
+}
+
+#Footer_desktop{
+	background-color: rgba(255, 255, 255, 0.25);
+	color: white;
+	position: relative;
+	right: 0;
+	width: 130px;
+	height: 100vh;
+	display: grid;
+	align-content: space-around;
+}
+
+#Social_media_links{
+	display: inline-flex;
+	justify-content: space-evenly;
+	width: -webkit-fill-available;
+}
+
+#FruitMiniDetail_desktop{
+	background-color: rgba(255, 255, 255, 0.25);
+	color: white;
+	position: relative;
+	right: 2px;
+	width: 300px;
+	height: 100vh;
+	display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+	/* filter: blur(5px);
+	-webkit-filter: blur(5px); */
+}
+
+/* Smaller Content */
+
+.headerContent{
+	font-family: helvetica;
+	display: block;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 25px;
+	margin-top: 50px;
+	padding: 24px 48px 32px 48px; /*top right bottom left*/
+}
+
+.fruitIntroContent{
+	font-family: helvetica;
+	display: grid;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.25);
+	margin-top:0px;
+	margin-left: 54px;
+	align-content: center;
+    padding: 20px 25px 20px 20px; /*top right bottom left*/
+	height: -webkit-fill-available;
+	width: 53%;
+}
+
+.introductionBox{
+	display: grid;
+	width: 80%;
+	height: 240px;
+    align-content: space-around;
+}
+
+.innerFooter{
+	padding: 0 5px 0px 5px;
+}
+
+.largestText{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin: 0 0 8px 0;
+	/*width: 442px;*/
+}
+
+.mediumText{
+	font-size: 18px;
+	margin: 0 0 8px 0;
+}
+
+.smallText{
+	font-size: 14px;
+	margin: 0 0 0 0;
+}
+
+.tinyText{
+	font-size: 12px;
+	margin: 0 0 0 0;
+}
+
+.roundedSelect{
+	background-color: black;
+	color: rgba(255, 255, 255, 0.5);
+	height: 29px;
+	width: 195px;
+	font-size: 18px;
+	border: none;
+	border-radius: 8px;
+}
+
+.defaultButton{
+	background-color: #C12C2C;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+.defaultButtonBig{
+	background-color: #c0c0c0;
+	color: white;
+	padding: 15px;
+	border: none;
+	font-size: 18px;
+	width: fit-content;
+}
+
+.sideFruitButton{
+	/* position: relative;
+	bottom: -46px; */
+} 
+
+.fillSpaceButton{
+	background-color: #c0c0c0;
+	color: white;
+	padding: 10px 50px 10px 50px;
+    border: none;
+    font-size: 18px;
+    width: fit-content;
+    height: 15%;
+    min-height: 130px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.headerButton{
+	font-size: 18px;
+	margin: 0 0 0 0;
+	padding: 20px 0 20px 0;
+	background-color: transparent;
+	width: 100%;
+	border: none;
+	color: white;
+}
+
+.headerButtonRed:hover{
+	color: #FF5757;
+}
+
+.headerButtonBlue:hover{
+	color: #3FA3FF;
+}
+
+.headerButtonGreen:hover{
+	color: #B7FF95;
+}
+
+.headerButtonYellow:hover{
+	color: #FDC549;
+}
+
+.redBG{
+	background-color: #C12C2C;
+}
+
+.blueBG{
+	background-color: #3FA3FF;
+}
+
+.greenBG{
+	background-color: #89c56d;
+}
+
+.yellowBG{
+	background-color: #bb933d;
+}
+
+.spacedBetween{ /* Side by side items will be placed vertically in mobile + tablet*/
+	display: inline-flex;
+	justify-content: space-between;
+	width: -webkit-fill-available;
+}
+
+#Heading_desktop .logoLink{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+
+#Heading_desktop .logoLinkImage{
+	width: inherit;
+	padding: 20px 0 20px 0;
+}
+
+.logoLink:hover{
+	outline: 4px white;
+}
+
+#Heading_tablet .logoLink{
+	width: 30px;
+	margin: 20px 0 20px 0;
+}
+
+.headerCredits{
+	width: 100%;
+	text-align: center;
+}
+
+#Main_menu_tablet{
+	/* display: none; */
+	display: block;
+		color: white;
+		background-color: rgba(34, 34, 34, 0.95);
+		border-radius: 0 0 0 25px;
+		position: absolute;
+		right: 0;
+		margin-left: 0;
+		width: 300px;
+}
+
+.sideFruitDetail{
+	padding: 24px 40px 24px 40px;
+}
+
+.sideFruitPicture{
+	width: inherit;
+	height: 30%;
+	max-height: 270px;
+	padding: 40px 0 0 0;
+	margin: 50px 0;
+	display: flex;
+    justify-content: center;
+}
+
+.sideFruitPicture img{
+	width: auto;
+	height: 100%;
+}
+
+/*Social_media_links*/
+#Social_media_links a div{
+	width:20px;
+	height: 20px;
+}
+
+.behance_link{
+	background-image: url("FruitPics/BehanceLogoSVG.svg");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	/* max-width: 100%; */
+}
+.behance_link:hover{
+	background-image: url("FruitPics/BehanceLogoSelectedSVG.svg");
+}
+
+.youtube_link{
+	background-image: url("FruitPics/YouTubeLogoSVG.svg");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	
+}
+.youtube_link:hover{
+	background-image: url("FruitPics/YouTubeLogoSelectedSVG.svg");
+}
+
+.portfolio_link{
+	background-image: url("FruitPics/PortfolioLinkSVG.svg");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+.portfolio_link:hover{
+	background-image: url("FruitPics/PortfolioLinkSelectedSVG.svg");
+}
+
+.linkedin_link{
+	background-image: url("FruitPics/LinkedInSVG.svg");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+.linkedin_link:hover{
+	background-image: url("FruitPics/LinkedInSelectedSVG.svg");
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media(max-width: 950px){
+	body{
+		overflow-x: auto;
+	}
+	
+	body.homepage .allContentOrder{
+		display: block;
+		width:100%;
+	}
+	
+	#Heading_desktop, #Footer_desktop{
+		display: none !important;
+	}
+	
+	#Heading_desktop{
+		/*width: 130px;*/
+		height: 100vh;
+		display: grid;
+		align-content: space-around;
+	}
+	
+	#Heading_tablet{
+		font-family: helvetica;
+		background-color: rgba(255, 255, 255, 0.25);
+		color:white;
+		/*width: 100%;
+		height: 100px;*/
+		display: flex;
+		justify-content: space-between;
+		padding: 0 24px 0 24px;
+	}
+	
+	#Heading_tablet .logoLink {
+		width: 150px;
+		margin: 20px 5px 20px 5px;
+	}
+	
+	#Heading_tablet img{
+		width: inherit;
+	}
+	
+	.dropdown button.main_menu_button{
+		background-color: transparent;
+		border:none;
+		margin: 0 20px 0 20px;
+		padding: 42px 0 42px 0;
+		width: 40px;
+	}
+	
+	.dropdown #Main_menu_tablet{
+		display: none;
+		color: white;
+		background-color: rgba(34, 34, 34, 0.95);
+		border-radius: 0 0 0 25px;
+		position: absolute;
+		right: 0;
+		margin-left: 0;
+		width: 300px;
+	}
+
+	.dropdown:hover #Main_menu_tablet{
+		display: block;
+		color: white;
+		background-color: rgba(34, 34, 34, 0.95);
+		border-radius: 0 0 0 25px;
+		position: absolute;
+		right: 0;
+		margin-left: 0;
+		width: 300px;
+	}
+	
+	#Main_desktop{
+		margin-left:auto;
+		margin-right:auto;
+		height:auto;
+	}
+	
+	.headerContent{ /*Tablet*/
+		padding: 24px 48px 32px 48px; /*top right bottom left*/
+		width:80%;
+		margin-top: 75px;
+		margin-bottom: 75px; 
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.headerContent{
+		width: 80%;
+	}
+	
+	.spacedBetween{
+		display: table-caption;
+		justify-content: inherit;
+		width: auto;
+	}
+	
+	#Submit_fruit_select_button{
+		margin: 8px 0 0 0; /*top right bottom left*/
+	}
+	
+	#Footer_tablet{
+		display: block;
+		font-family: helvetica;
+		background-color: rgba(255, 255, 255, 0.25);
+		color:white;
+		/*width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 24px 0 24px;*/
+		display: grid;
+	}
+	
+	#Footer_tablet > div{
+		margin: 25px 0px 25px 0px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#Social_media_links a{ /*tablet*/
+		/* width: 30px; */
+	}
+	
+	#Social_media_links a div{
+		width: 30px;
+		height: 30px;
+	}
+
+	/* --------------------------------- */
+	.allContentOrder{
+		display: grid;
+	}
+	
+	.fruitIntroContent{
+		margin: 30px auto;
+		text-align: center;
+		width: 90%;
+	}
+
+	#FruitMiniDetail_desktop{
+		margin: 30px 0;
+		justify-self: center;
+	}
+
+	.introductionBox {
+		display: grid;
+		width: 100%;
+		height: auto;
+		align-content: space-around;
+		justify-items: center;
+	}
+
+	#FruitMiniDetail_desktop{
+		width: 550px;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+}
+
+/* Mobile */
+@media(max-width: 390px){
+	body{
+	}
+}

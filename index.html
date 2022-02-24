@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruit Basket | Homepage</title>
+	
+	<!-- Import -->
+	<link rel = "stylesheet" href = "style.css">
+	
+	<!-- Credits -->
+	<meta name = "viewport" content="width = device-width">
+	<meta name = "author" content="Toniann Evans">
+	
+	<!-- Import Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	
+	<!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> -->
+	
+</head>
+<body class="homepage">
+	<div class="allContentOrder">
+		<section id="Heading_desktop">
+			<div>
+				<a href="#" class="logoLink">
+					<img src="FruitPics/Fruit_Basket_Logo.png" class="logoLinkImage">
+				</a>
+				<button class="headerButton headerButtonYellow" url="#">Bananas</button>
+				<button class="headerButton headerButtonBlue" url="#">Blueberries</button>
+				<button class="headerButton headerButtonRed" url="#">Cherries</button>
+				<button class="headerButton headerButtonGreen" url="#">Grapes</button>
+				<button class="headerButton headerButtonRed" url="#">Strawberries</button>
+			</div>
+			<div>
+				<p class="headerCredits tinyText">TEvans 2022</p>
+			</div>
+		</section>
+		
+		<section id="Heading_tablet">
+			<a href="#" class="logoLink">
+				<img src="FruitPics/Fruit_Basket_Logo.png" class="logoLinkImage">
+			</a>
+			<div class="dropdown closed">
+				<button href="#" class="main_menu_button" aria-expanded="false">
+					<img src="FruitPics/Hamburger_Menu_Icon.png">
+				</button>
+				<div id="Main_menu_tablet">
+					<button class="headerButton headerButtonYellow" url="#">Bananas</button>
+					<button class="headerButton headerButtonBlue" url="#">Blueberries</button>
+					<button class="headerButton headerButtonRed" url="#">Cherries</button>
+					<button class="headerButton headerButtonGreen" url="#">Grapes</button>
+					<button class="headerButton headerButtonRed" url="#">Strawberries</button>
+				</div>
+			</div>
+		</section>
+		
+		<section id="Main_desktop">
+			<div class="headerContent">
+				
+				<h1 class="largestText">Learn to Grow your Favorite Fruits.</h1>
+				<p class="mediumText">Select a fruit from the dropdown:</p>
+				
+				<div class="spacedBetween">
+					<select name="fruit_select" id="Fruit_select" class="roundedSelect">
+						<option value="">Select Fruit...</option>
+						<option value="banana">Banana</option>
+						<option value="blueberry">Blueberry</option>
+						<option value="cherry">Cherry</option>
+						<option value="grapes">Grapes</option>
+						<option value="strawberry">Strawberry</option>
+					</select>
+					<button id="Submit_fruit_select_button" class="defaultButton">
+						Confirm Fruit
+					</button>
+				</div>
+				
+				
+			</div>
+		</section>
+		
+		<section id="Footer_desktop" class="smallText">
+			<div class="innerFooter">
+				<p>
+					The Fruit Basket website is created for personal use only. It’s made with love and strictly for you and your garden’s entertainment. Any solicitation related to this site is strictly prohibited.
+					The Fruit Basket website is created for personal use only. It’s made with love and strictly for you and your garden’s entertainment. Any solicitation related to this site is strictly prohibited.
+				</p>
+			</div>
+			<div id="Social_media_links">
+				<a href="https://www.behance.net/tonianne1" aria-label="Behance"><div class="behance_link"></div></a>
+				<a href="#" aria-label="YouTube"><div class="youtube_link"></div></a>
+				<a href="http://tonievans.tech" aria-label="My Portfolio"><div class="portfolio_link"></div></a>
+				<a href="https://www.linkedin.com/in/toniann-evans-89038596/" aria-label="LinkedIn"><div class="linkedin_link"></div></a>					
+			</div>
+		</section>
+		
+		<section id="Footer_tablet" class="smallText">
+			<div>
+				<div id="Social_media_links">
+					<a href="https://www.behance.net/tonianne1" aria-label="Behance"><div class="behance_link"></div></a>
+					<a href="#" aria-label="YouTube"><div class="youtube_link"></div></a>
+					<a href="http://tonievans.tech" aria-label="My Portfolio"><div class="portfolio_link"></div></a>
+					<a href="https://www.linkedin.com/in/toniann-evans-89038596/" aria-label="LinkedIn"><div class="linkedin_link"></div></a>					
+				</div>
+				<div class="innerFooter">
+					<p>
+						The Fruit Basket website is created for personal use only. It’s made with love and strictly for you and your garden’s entertainment. Any solicitation related to this site is strictly prohibited.
+						The Fruit Basket website is created for personal use only. It’s made with love and strictly for you and your garden’s entertainment. Any solicitation related to this site is strictly prohibited.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+</body>
+</html>

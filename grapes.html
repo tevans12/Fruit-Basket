@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruit Basket | Grapes</title>
+	
+	<!-- Import -->
+	<link rel = "stylesheet" href = "style.css">
+	
+	<!-- Credits -->
+	<meta name = "viewport" content="width = device-width">
+	<meta name = "author" content="Toniann Evans">
+	
+	<!-- Import Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+		
+</head>
+<body class="grapes">
+	<div class="allContentOrder">
+		<section id="Heading_desktop">
+			<div>
+				<a href="#" class="logoLink">
+					<img src="FruitPics/Fruit_Basket_Logo.png" class="logoLinkImage">
+				</a>
+				<button class="headerButton headerButtonYellow" url="#">Bananas</button>
+				<button class="headerButton headerButtonBlue" url="#">Blueberries</button>
+				<button class="headerButton headerButtonRed" url="#">Cherries</button>
+				<button class="headerButton headerButtonGreen" url="#">Grapes</button>
+				<button class="headerButton headerButtonRed" url="#">Strawberries</button>
+			</div>
+			<div>
+				<p class="headerCredits tinyText">TEvans 2022</p>
+			</div>
+		</section>
+		
+		<section id="Heading_tablet">
+			<a href="#" class="logoLink">
+				<img src="FruitPics/Fruit_Basket_Logo.png" class="logoLinkImage">
+			</a>
+			<div class="dropdown closed">
+				<button href="#" class="main_menu_button" aria-expanded="false">
+					<img src="FruitPics/Hamburger_Menu_Icon.png">
+				</button>
+				<div id="Main_menu_tablet">
+					<button class="headerButton headerButtonYellow" url="#">Bananas</button>
+					<button class="headerButton headerButtonBlue" url="#">Blueberries</button>
+					<button class="headerButton headerButtonRed" url="#">Cherries</button>
+					<button class="headerButton headerButtonGreen" url="#">Grapes</button>
+					<button class="headerButton headerButtonRed" url="#">Strawberries</button>
+				</div>
+			</div>
+		</section>
+		
+		<section id="Main_desktop">
+			<div class="fruitIntroContent">
+				
+                <div class="introductionBox">
+                    <h1 class="largestText currentFruit"></h1><!-- Fruit Name -->
+                    <p class="mediumText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices adipiscing dignissim et eget est sagittis faucibus. Fusce sit ut placerat fringilla risus libero pellentesque nibh.</p>
+                    <button class="defaultButtonBig fruitDetailButton">Learn more about&nbsp<span class="currentFruit"></span></button>
+                </div>
+				
+			</div>
+		</section>
+		
+		<section id="FruitMiniDetail_desktop" class="mediumText">
+			<div>
+				<div class="sideFruitPicture">
+					<img src=""> <!-- Fruit Picture -->
+				</div>
+			   
+				<div class="sideFruitDetail">
+					<p class="fruitClimate"><b>Climate: &nbsp</b>45F</p>
+					<p class="fruitType"><b>Type: &nbsp</b>Tree</p>
+					<p class="fruitLatitude"><b>Latitude: &nbsp</b>30-40 degrees away from the equator</p>
+				</div>
+			</div>
+           
+            <button class="sideFruitButton fillSpaceButton">
+                <p>Learn how to take care of&nbsp<span class="currentFruit"></span></p>
+                <img src="FruitPics/FRUITDETAIL_arrow-right.svg">
+            </button>
+		</section>
+		
+		<section id="FruitMiniDeta_tablet" class="smallText">
+			
+		</section>
+		
+	</div>
+</body>
+</html>
